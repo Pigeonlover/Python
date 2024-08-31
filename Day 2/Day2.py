@@ -16,3 +16,25 @@ float()
 str()
 bool()
 # Etc... Some things cannot be converted
+
+# "/" gives a float as an answer. "//" gives an integer
+8 / 4  # --> 2.0
+8 // 4 # --> 2
+
+# "**" for exponential power
+2**3  # --> 6
+
+
+# EXERCISE - BMI CALCULATOR
+
+height = 1.58 
+weight = 43.8
+
+bmi = weight / height**2
+
+print(round(bmi))
+
+
+# F-strings - add 'f' in front of quotes to print; add variables between curly braces {}
+
+print(f"Your BMI is: {bmi}")
