@@ -6,3 +6,19 @@
 
 # To print items backwards from the end of the list, use negative index positions :
 # print(list_name[-1]) --> item3
+
+# Add new item at the end :
+# list_name.append("item4")
+
+# Add more than one new item :
+# list_name.extend("item5", "item6", "item7")
+
+# A list can contain more lists :
+items = ["strawberries", "apples", "potatoes", "kale"]
+
+fruits = ["strawberries", "apples"]
+vegetables = ["potatoes", "kale"]
+
+items = [fruits, vegetables]
+
+print(items)  # --> [['strawberries', 'apples'], ['potatoes', 'kale']]
