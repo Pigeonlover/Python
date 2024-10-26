@@ -71,4 +71,6 @@ if user == 1 and computer == 3:
    print("RESULT: You win!\n\n")
 elif computer > user:
    print("RESULT: You lose!\n\n")
+elif user == computer:
+   print("RESULT: It's a draw!\n\n")
 
